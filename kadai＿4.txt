@@ -1,0 +1,15 @@
+kanoippei@kanouippeinoMacBook-Air ~ % cd /Users/kanoippei
+kanoippei@kanouippeinoMacBook-Air ~ % mkdir git_challenge
+kanoippei@kanouippeinoMacBook-Air ~ % git init
+Reinitialized existing Git repository in /Users/kanoippei/.git/
+kanoippei@kanouippeinoMacBook-Air ~ % git add /Users/kanoippei/git_challenge
+kanoippei@kanouippeinoMacBook-Air ~ % git commit -m "hello_world/txtを追加"
+[main b6f1e91] hello_world/txtを追加
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+ delete mode 100644 git_challenge/.DS_Store
+kanoippei@kanouippeinoMacBook-Air ~ % git add /Users/kanoippei/git_challenge
+kanoippei@kanouippeinoMacBook-Air ~ % git commit -m"日本語訳を追記"
+[main a303818] 日本語訳を追記
+anoippei@kanouippeinoMacBook-Air ~ % git log --oneline
+a303818 (HEAD -> main) 日本語訳を追記
+b6f1e91 hello_world/txtを追加
